@@ -1,0 +1,30 @@
+{
+  "name": "hero6e",
+  "title": "hero6e",
+  "description": "",
+  "version": "0.1.0",
+  "author": "",
+  "authors": [
+    {
+      "name": "",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "scripts": [],
+  "esmodules": ["hero6e.js"],
+  "styles": ["hero6e.css"],
+  "packs": [],
+  "languages": [],
+  "gridDistance": 1,
+  "gridUnits": "",
+  "minimumCoreVersion": "0.5.0",
+  "compatibleCoreVersion": "0.5.0",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "",
+  "readme": "",
+  "bugs": "",
+  "changelog": ""
+}

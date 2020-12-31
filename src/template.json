@@ -1,0 +1,1659 @@
+{
+  "Actor": {
+    "types": ["hero", "creature", "foe", "npc", "follower", "duplicate"],
+    "templates": {
+      "description": {
+        "name": "",
+        "playername": "",
+        "height_metric": "",
+        "height_imperial": "",
+        "weight_metric": "",
+        "weight_imperial": "",
+        "hair": "",
+        "eyes": ""
+      },
+      "info": {
+        "appearance": "",
+        "personality": "",
+        "quote": "",
+        "background": "",
+        "tactics": "",
+        "campaign_use": ""
+      },
+      "complications": {
+        "complication": {
+          "name": "",
+          "text": "",
+          "notes": "",
+          "options": "",
+          "cost": ""
+        }
+      },
+      "characteristics": {
+        "strength": {
+          "shortname": "STR",
+          "value": "",
+          "cost": "",
+          "roll": "",
+          "damage": "",
+          "lift_kg": "",
+          "end_cost": ""
+        },
+        "dexterity": {
+          "shortname": "DEX",
+          "value": "",
+          "cost": "",
+          "roll": ""
+        },
+        "constitution": {
+          "shortname": "CON",
+          "value": "",
+          "cost": "",
+          "roll": ""
+        },
+        "intelligence": {
+          "shortname": "INT",
+          "value": "",
+          "cost": "",
+          "roll": "",
+          "perception": {
+            "shortname": "PER",
+            "roll": " "
+          }
+        },
+        "ego": {
+          "shortname": "EGO",
+          "value": "",
+          "cost": "",
+          "roll": ""
+        },
+        "presence": {
+          "shortname": "PRE",
+          "value": "",
+          "cost": "",
+          "roll": "",
+          "attack": ""
+        }
+      },
+      "combat": {
+        "offensive_combat_value": {
+          "shortname": "OCV",
+          "value": "",
+          "cost": ""
+        },
+        "defensive_combat_value": {
+          "shortname": "DCV",
+          "value": "",
+          "cost": ""
+        },
+        "offensive_mental_combat_value": {
+          "shortname": "OMCV",
+          "value": "",
+          "cost": ""
+        },
+        "defensive_mental_combat_value": {
+          "shortname": "DMCV",
+          "value": "",
+          "cost": ""
+        },
+        "offensive_social_combat_value": {
+          "shortname": "OSCV",
+          "value": "",
+          "cost": ""
+        },
+        "defensive_social_combat_value": {
+          "shortname": "DSCV",
+          "value": "",
+          "cost": ""
+        },
+        "speed": {
+          "shortname": "SPD",
+          "value": "",
+          "cost": "",
+          "phases": ""
+        },
+        "lightning_reflexes": {
+          "levels": "",
+          "text": ""
+        }
+      },
+      "defense": {
+        "physical_defense": {
+          "shortname": "PD",
+          "value": "",
+          "cost": ""
+        },
+        "physical_defense_resistant": {
+          "shortname": "rPD",
+          "value": "",
+          "cost": ""
+        },
+        "energy_defense": {
+          "shortname": "ED",
+          "value": "",
+          "cost": ""
+        },
+        "energy_defense_resistant": {
+          "shortname": "rED",
+          "value": "",
+          "cost": ""
+        },
+        "social_defense": {
+          "shortname": "SD",
+          "value": "",
+          "cost": ""
+        }
+      },
+      "defense_powers": {
+        "defense_power": {
+          "is_mpp": "",
+          "is_vpp": "",
+          "levels": "",
+          "name": "",
+          "display": "",
+          "alias": "",
+          "input": "",
+          "notes": "",
+          "option": "",
+          "sfx": "",
+          "range": "",
+          "damage": "",
+          "end": "",
+          "real_cost": "",
+          "active_cost": "",
+          "adders": {
+            "adder_general": {
+              "levels": "",
+              "name": "",
+              "display": "",
+              "alias": "",
+              "input": "",
+              "notes": "",
+              "option": "",
+              "sfx": "",
+              "cost": ""
+            }
+          },
+          "modifiers": {
+            "modifier_general": {
+              "mod_value": "",
+              "levels": "",
+              "name": "",
+              "display": "",
+              "alias": "",
+              "input": "",
+              "notes": "",
+              "option": "",
+              "sfx": ""
+            }
+          }
+        }
+      },
+      "defense_compound_powers": {
+        "compound_power": {
+          "component_power": {
+            "levels": "",
+            "name": "",
+            "display": "",
+            "alias": "",
+            "input": "",
+            "notes": "",
+            "option": "",
+            "sfx": "",
+            "range": "",
+            "damage": "",
+            "end": "",
+            "real_cost": "",
+            "active_cost": "",
+            "adders": {
+              "adder_general": {
+                "levels": "",
+                "name": "",
+                "display": "",
+                "alias": "",
+                "input": "",
+                "notes": "",
+                "option": "",
+                "sfx": "",
+                "cost": ""
+              }
+            },
+            "modifiers": {
+              "modifier_general": {
+                "mod_value": "",
+                "levels": "",
+                "name": "",
+                "display": "",
+                "alias": "",
+                "input": "",
+                "notes": "",
+                "option": "",
+                "sfx": ""
+              }
+            }
+          }
+        }
+      },
+      "martial_arts": {
+        "maneuver": {
+          "phase": "",
+          "ocv": "",
+          "dcv": "",
+          "effect": "",
+          "notes": ""
+        }
+      },
+      "vitals": {
+        "recovery": {
+          "shortname": "REC",
+          "value": "",
+          "cost": ""
+        },
+        "savoir_faire": {
+          "shortname": "SF",
+          "value": "",
+          "cost": ""
+        },
+        "endurance": {
+          "shortname": "END",
+          "value": "",
+          "cost": ""
+        },
+        "body": {
+          "shortname": "BODY",
+          "value": "",
+          "cost": ""
+        },
+        "stun": {
+          "shortname": "STUN",
+          "value": "",
+          "cost": ""
+        },
+        "composure": {
+          "shortname": "COMP",
+          "value": "",
+          "cost": ""
+        }
+      },
+      "hit_locations" : {
+        "humanoid": {
+          "head": {
+            "roll": [3, 4, 5],
+            "STUNx": "5",
+            "NSTUN": "2",
+            "BODYx": "2",
+            "ToHit": "-8",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "hands": {
+            "roll": [6],
+            "STUNx": "1",
+            "NSTUN": ".5",
+            "BODYx": ".5",
+            "ToHit": "-6",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "arms": {
+            "roll": [7, 8],
+            "STUNx": "2",
+            "NSTUN": ".5",
+            "BODYx": ".5",
+            "ToHit": "-5",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "shoulders": {
+            "roll": [9],
+            "STUNx": "3",
+            "NSTUN": "1",
+            "BODYx": "1",
+            "ToHit": "-5",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "chest":{
+            "roll": [10, 11],
+            "STUNx": "3",
+            "NSTUN": "1",
+            "BODYx": "1",
+            "ToHit": "-3",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "stomach": {
+            "roll": [12],
+            "STUNx": "4",
+            "NSTUN": "1.5",
+            "BODYx": "1",
+            "ToHit": "-7",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "vitals": {
+            "roll": [13],
+            "STUNx": "4",
+            "NSTUN": "1.5",
+            "BODYx": "2",
+            "ToHit": "-8",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "thighs": {
+            "roll": [14],
+            "STUNx": "2",
+            "NSTUN": "1",
+            "BODYx": "1",
+            "ToHit": "-4",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "legs": {
+            "roll": [15, 16],
+            "STUNx": "2",
+            "NSTUN": ".5",
+            "BODYx": ".5",
+            "ToHit": "-6",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "feet": {
+            "roll": [17, 18],
+            "STUNx": "1",
+            "NSTUN": ".5",
+            "BODYx": ".5",
+            "ToHit": "-8",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          }
+        }
+      },
+      "movement": {
+        "running": {
+          "shortname": "run",
+          "primary_value": "",
+          "primary_value_noncom": "",
+          "secondary_value": "",
+          "secondary_value_noncom": "",
+          "end_cost": "",
+          "cost": ""
+        },
+        "swimming": {
+          "shortname": "swim",
+          "primary_value": "",
+          "primary_value_noncom": "",
+          "secondary_value": "",
+          "secondary_value_noncom": "",
+          "end_cost": "",
+          "cost": ""
+        },
+        "leaping": {
+          "horizontal": {
+            "shortname": "h.leap",
+            "value": "",
+            "cost": ""
+          },
+          "vertical": {
+            "shortname": "v.leap",
+            "value": ""
+          }
+        }
+      },
+      "movement_others": {
+        "movement_other": {
+          "combat": {
+            "value": "",
+            "real_cost": "",
+            "active_cost": "",
+            "text": "",
+            "option": ""
+          },
+          "non-combat": {
+            "value_2x": "",
+            "value_4x": ""
+          }
+        }
+      },
+      "perks": {
+        "perk": {
+          "levels": "",
+          "name": "",
+          "display": "",
+          "alias": "",
+          "roll": "",
+          "text": "",
+          "notes": "",
+          "option": "",
+          "cost": "",
+          "sfx": "",
+          "adders": {
+            "adder_general": {
+              "levels": "",
+              "name": "",
+              "display": "",
+              "alias": "",
+              "input": "",
+              "notes": "",
+              "option": "",
+              "sfx": "",
+              "cost": ""
+            }
+          }
+        }
+      },
+      "talents": {
+        "talent": {
+          "levels": "",
+          "name": "",
+          "display": "",
+          "alias": "",
+          "roll": "",
+          "text": "",
+          "notes": "",
+          "option": "",
+          "cost": "",
+          "sfx": "",
+          "adders": {
+            "adder_general": {
+              "levels": "",
+              "name": "",
+              "display": "",
+              "alias": "",
+              "input": "",
+              "notes": "",
+              "option": "",
+              "sfx": "",
+              "cost": ""
+            }
+          }
+        }
+      },
+      "skills": {
+        "skill": {
+          "is_enhancer": "",
+          "is_everyman": "",
+          "alias": "",
+          "display": "",
+          "input": "",
+          "levels": "",
+          "name": "",
+          "roll": "",
+          "notes": "",
+          "option": "",
+          "cost": "",
+          "sfx": "",
+          "adders": {
+            "adder_general": {
+              "levels": "",
+              "name": "",
+              "display": "",
+              "alias": "",
+              "input": "",
+              "notes": "",
+              "option": "",
+              "sfx": "",
+              "cost": ""
+            }
+          }
+        }
+      },
+      "powers": {
+        "power": {
+          "is_mpp": "",
+          "is_vpp": "",
+          "levels": "",
+          "name": "",
+          "display": "",
+          "alias": "",
+          "input": "",
+          "notes": "",
+          "option": "",
+          "sfx": "",
+          "range": "",
+          "damage": "",
+          "end": "",
+          "real_cost": "",
+          "active_cost": "",
+          "adders": {
+            "adder_general": {
+              "levels": "",
+              "name": "",
+              "display": "",
+              "alias": "",
+              "input": "",
+              "notes": "",
+              "option": "",
+              "sfx": "",
+              "cost": ""
+            }
+          },
+          "modifiers": {
+            "modifier_general": {
+              "mod_value": "",
+              "levels": "",
+              "name": "",
+              "display": "",
+              "alias": "",
+              "input": "",
+              "notes": "",
+              "option": "",
+              "sfx": ""
+            }
+          }
+        }
+      },
+      "compound_powers": {
+        "compound_power": {
+          "component_power": {
+            "levels": "",
+            "name": "",
+            "display": "",
+            "alias": "",
+            "input": "",
+            "notes": "",
+            "option": "",
+            "sfx": "",
+            "range": "",
+            "damage": "",
+            "end": "",
+            "real_cost": "",
+            "active_cost": "",
+            "adders": {
+              "adder_general": {
+                "levels": "",
+                "name": "",
+                "display": "",
+                "alias": "",
+                "input": "",
+                "notes": "",
+                "option": "",
+                "sfx": "",
+                "cost": ""
+              }
+            },
+            "modifiers": {
+              "modifier_general": {
+                "mod_value": "",
+                "levels": "",
+                "name": "",
+                "display": "",
+                "alias": "",
+                "input": "",
+                "notes": "",
+                "option": "",
+                "sfx": ""
+              }
+            }
+          }
+        }
+      },
+      "equipments": {
+        "equipment": {
+          "levels": "",
+          "name": "",
+          "display": "",
+          "alias": "",
+          "input": "",
+          "notes": "",
+          "option": "",
+          "sfx": "",
+          "stats": {
+            "range": "",
+            "damage": "",
+            "weight": "",
+            "end": "",
+            "value": ""
+          },
+          "real_cost": "",
+          "active_cost": "",
+          "adders": {
+            "adder_general": {
+              "levels": "",
+              "name": "",
+              "display": "",
+              "alias": "",
+              "input": "",
+              "notes": "",
+              "option": "",
+              "sfx": "",
+              "cost": ""
+            }
+          },
+          "modifiers": {
+            "modifier_general": {
+              "mod_value": "",
+              "levels": "",
+              "name": "",
+              "display": "",
+              "input": "",
+              "alias": "",
+              "notes": "",
+              "option": "",
+              "sfx": ""
+            }
+          }
+        }
+      },
+      "compound_equipments": {
+        "compound_power": {
+          "component_power": {
+            "levels": "",
+            "name": "",
+            "display": "",
+            "alias": "",
+            "input": "",
+            "notes": "",
+            "option": "",
+            "sfx": "",
+            "range": "",
+            "damage": "",
+            "end": "",
+            "real_cost": "",
+            "active_cost": "",
+            "adders": {
+              "adder_general": {
+                "levels": "",
+                "name": "",
+                "display": "",
+                "alias": "",
+                "input": "",
+                "notes": "",
+                "option": "",
+                "sfx": "",
+                "cost": ""
+              }
+            },
+            "modifiers": {
+              "modifier_general": {
+                "mod_value": "",
+                "levels": "",
+                "name": "",
+                "display": "",
+                "alias": "",
+                "input": "",
+                "notes": "",
+                "option": "",
+                "sfx": ""
+              }
+            }
+          }
+        }
+      }
+    },
+    "hero": {
+      "templates": ["description","info","complications","characteristics","combat","defense","defense_powers","defense_compound_powers","martial_arts","vitals","hit_locations","movement","movement_others","perks","talents","skills","powers","compound_powers","equipments","compound_equipments"]
+    },
+    "creature": {
+      "templates": ["description","info","complications","characteristics","combat","defense","defense_powers","defense_compound_powers","martial_arts","vitals","hit_locations","movement","movement_others","perks","talents","skills","powers","compound_powers","equipments","compound_equipments"]
+    },
+    "foe": {
+      "templates": ["description","info","complications","characteristics","combat","defense","defense_powers","defense_compound_powers","martial_arts","vitals","hit_locations","movement","movement_others","perks","talents","skills","powers","compound_powers","equipments","compound_equipments"]
+    },
+    "npc": {
+      "templates": ["description","info","complications","characteristics","combat","defense","defense_powers","defense_compound_powers","martial_arts","vitals","hit_locations","movement","movement_others","perks","talents","skills","powers","compound_powers","equipments","compound_equipments"]
+    },
+    "follower": {
+      "templates": ["description","info","complications","characteristics","combat","defense","defense_powers","defense_compound_powers","martial_arts","vitals","hit_locations","movement","movement_others","perks","talents","skills","powers","compound_powers","equipments","compound_equipments"]
+    },
+    "duplicate": {
+      "templates": ["description","info","complications","characteristics","combat","defense","defense_powers","defense_compound_powers","martial_arts","vitals","hit_locations","movement","movement_others","perks","talents","skills","powers","compound_powers","equipments","compound_equipments"]
+    }
+  },
+  "Item": {
+    "types": ["equipment", "weapon", "vehicle", "automaton", "computer", "base", "power", "spell"],
+    "templates": {
+      "description": {
+        "name": "",
+        "playername": "",
+        "height_metric": "",
+        "height_imperial": "",
+        "weight_metric": "",
+        "weight_imperial": "",
+        "hair": "",
+        "eyes": ""
+      },
+      "base_description": {
+        "name": "",
+        "playername": "",
+        "length_metric": "",
+        "length_imperial": "",
+        "width_metric": "",
+        "width_imperial": "",
+        "height_metric": "",
+        "height_imperial": "",
+        "volume_metric": "",
+        "volume_imperial": "",
+        "weight_metric": "",
+        "weight_imperial": "",
+        "hair": "",
+        "eyes": ""
+      },
+      "description_short": {
+        "name": "",
+        "playername": ""
+      },
+      "info": {
+        "appearance": "",
+        "personality": "",
+        "quote": "",
+        "background": "",
+        "tactics": "",
+        "campaign_use": ""
+      },
+      "complications": {
+        "complication": {
+          "name": "",
+          "text": "",
+          "notes": "",
+          "options": "",
+          "cost": ""
+        }
+      },
+      "characteristics": {
+        "strength": {
+          "shortname": "STR",
+          "value": "",
+          "cost": "",
+          "roll": "",
+          "damage": "",
+          "lift_kg": "",
+          "end_cost": ""
+        },
+        "dexterity": {
+          "shortname": "DEX",
+          "value": "",
+          "cost": "",
+          "roll": ""
+        },
+        "constitution": {
+          "shortname": "CON",
+          "value": "",
+          "cost": "",
+          "roll": ""
+        },
+        "intelligence": {
+          "shortname": "INT",
+          "value": "",
+          "cost": "",
+          "roll": "",
+          "perception": {
+            "shortname": "PER",
+            "roll": " "
+          }
+        },
+        "ego": {
+          "shortname": "EGO",
+          "value": "",
+          "cost": "",
+          "roll": ""
+        },
+        "presence": {
+          "shortname": "PRE",
+          "value": "",
+          "cost": "",
+          "roll": "",
+          "attack": ""
+        }
+      },
+      "base_characteristics": {
+        "size": {
+          "shortname": "SIZ",
+          "value": "",
+          "cost": ""
+        }
+      },
+      "computer_characteristics": {
+        "dexterity": {
+          "shortname": "DEX",
+          "value": "",
+          "cost": "",
+          "roll": ""
+        },
+        "intelligence": {
+          "shortname": "INT",
+          "value": "",
+          "cost": "",
+          "roll": "",
+          "perception": {
+            "shortname": "PER",
+            "roll": " "
+          }
+        }
+      },
+      "ai_characteristics": {
+        "dexterity": {
+          "shortname": "DEX",
+          "value": "",
+          "cost": "",
+          "roll": ""
+        },
+        "intelligence": {
+          "shortname": "INT",
+          "value": "",
+          "cost": "",
+          "roll": "",
+          "perception": {
+            "shortname": "PER",
+            "roll": " "
+          }
+        },
+        "ego": {
+          "shortname": "EGO",
+          "value": "",
+          "cost": "",
+          "roll": ""
+        }
+      },
+      "vehicle_characteristics": {
+        "size": {
+          "shortname": "SIZ",
+          "value": "",
+          "cost": ""
+        },
+        "strength": {
+          "shortname": "STR",
+          "value": "",
+          "cost": "",
+          "roll": "",
+          "damage": "",
+          "lift_kg": "",
+          "end_cost": ""
+        },
+        "dexterity": {
+          "shortname": "DEX",
+          "value": "",
+          "cost": "",
+          "roll": ""
+        }
+      },
+      "combat": {
+        "offensive_combat_value": {
+          "shortname": "OCV",
+          "value": "",
+          "cost": ""
+        },
+        "defensive_combat_value": {
+          "shortname": "DCV",
+          "value": "",
+          "cost": ""
+        },
+        "offensive_mental_combat_value": {
+          "shortname": "OMCV",
+          "value": "",
+          "cost": ""
+        },
+        "defensive_mental_combat_value": {
+          "shortname": "DMCV",
+          "value": "",
+          "cost": ""
+        },
+        "offensive_social_combat_value": {
+          "shortname": "OSCV",
+          "value": "",
+          "cost": ""
+        },
+        "defensive_social_combat_value": {
+          "shortname": "DSCV",
+          "value": "",
+          "cost": ""
+        },
+        "speed": {
+          "shortname": "SPD",
+          "value": "",
+          "cost": "",
+          "phases": ""
+        },
+        "lightning_reflexes": {
+          "levels": "",
+          "text": ""
+        }
+      },
+      "base_combat": {
+        "ocv_bonus_to_hit": ""
+      },
+      "computer_combat": {
+        "offensive_combat_value": {
+          "shortname": "OCV",
+          "value": "",
+          "cost": ""
+        },
+        "defensive_combat_value": {
+          "shortname": "DCV",
+          "value": "",
+          "cost": ""
+        },
+        "offensive_mental_combat_value": {
+          "shortname": "OMCV",
+          "value": "",
+          "cost": ""
+        },
+        "defensive_mental_combat_value": {
+          "shortname": "DMCV",
+          "value": "",
+          "cost": ""
+        },
+        "speed": {
+          "shortname": "SPD",
+          "value": "",
+          "cost": "",
+          "phases": ""
+        },
+        "lightning_reflexes": {
+          "levels": "",
+          "text": ""
+        }
+      },
+      "vehicle_combat": {
+        "offensive_combat_value": {
+          "shortname": "OCV",
+          "value": "",
+          "cost": ""
+        },
+        "defensive_combat_value": {
+          "shortname": "DCV",
+          "value": "",
+          "cost": ""
+        },
+        "speed": {
+          "shortname": "SPD",
+          "value": "",
+          "cost": "",
+          "phases": ""
+        },
+        "lightning_reflexes": {
+          "levels": "",
+          "text": ""
+        }
+      },
+      "defense": {
+        "physical_defense": {
+          "shortname": "PD",
+          "value": "",
+          "cost": ""
+        },
+        "physical_defense_resistant": {
+          "shortname": "rPD",
+          "value": "",
+          "cost": ""
+        },
+        "energy_defense": {
+          "shortname": "ED",
+          "value": "",
+          "cost": ""
+        },
+        "energy_defense_resistant": {
+          "shortname": "rED",
+          "value": "",
+          "cost": ""
+        },
+        "social_defense": {
+          "shortname": "SD",
+          "value": "",
+          "cost": ""
+        }
+      },
+      "base_defense": {
+        "physical_defense_resistant": {
+          "shortname": "rPD",
+          "value": "",
+          "cost": ""
+        },
+        "energy_defense_resistant": {
+          "shortname": "rED",
+          "value": "",
+          "cost": ""
+        }
+      },
+      "vehicle_defense": {
+        "physical_defense_resistant": {
+          "shortname": "rPD",
+          "value": "",
+          "cost": ""
+        },
+        "energy_defense_resistant": {
+          "shortname": "rED",
+          "value": "",
+          "cost": ""
+        }
+      },
+      "defense_powers": {
+        "defense_power": {
+          "is_mpp": "",
+          "is_vpp": "",
+          "levels": "",
+          "name": "",
+          "display": "",
+          "alias": "",
+          "input": "",
+          "notes": "",
+          "option": "",
+          "sfx": "",
+          "range": "",
+          "damage": "",
+          "end": "",
+          "real_cost": "",
+          "active_cost": "",
+          "adders": {
+            "adder_general": {
+              "levels": "",
+              "name": "",
+              "display": "",
+              "alias": "",
+              "input": "",
+              "notes": "",
+              "option": "",
+              "sfx": "",
+              "cost": ""
+            }
+          },
+          "modifiers": {
+            "modifier_general": {
+              "mod_value": "",
+              "levels": "",
+              "name": "",
+              "display": "",
+              "alias": "",
+              "input": "",
+              "notes": "",
+              "option": "",
+              "sfx": ""
+            }
+          }
+        }
+      },
+      "defense_compound_powers": {
+        "compound_power": {
+          "component_power": {
+            "levels": "",
+            "name": "",
+            "display": "",
+            "alias": "",
+            "input": "",
+            "notes": "",
+            "option": "",
+            "sfx": "",
+            "range": "",
+            "damage": "",
+            "end": "",
+            "real_cost": "",
+            "active_cost": "",
+            "adders": {
+              "adder_general": {
+                "levels": "",
+                "name": "",
+                "display": "",
+                "alias": "",
+                "input": "",
+                "notes": "",
+                "option": "",
+                "sfx": "",
+                "cost": ""
+              }
+            },
+            "modifiers": {
+              "modifier_general": {
+                "mod_value": "",
+                "levels": "",
+                "name": "",
+                "display": "",
+                "alias": "",
+                "input": "",
+                "notes": "",
+                "option": "",
+                "sfx": ""
+              }
+            }
+          }
+        }
+      },
+      "martial_arts": {
+        "maneuver": {
+          "phase": "",
+          "ocv": "",
+          "dcv": "",
+          "effect": "",
+          "notes": ""
+        }
+      },
+      "vitals": {
+        "recovery": {
+          "shortname": "REC",
+          "value": "",
+          "cost": ""
+        },
+        "savoir_faire": {
+          "shortname": "SF",
+          "value": "",
+          "cost": ""
+        },
+        "endurance": {
+          "shortname": "END",
+          "value": "",
+          "cost": ""
+        },
+        "body": {
+          "shortname": "BODY",
+          "value": "",
+          "cost": ""
+        },
+        "stun": {
+          "shortname": "STUN",
+          "value": "",
+          "cost": ""
+        },
+        "composure": {
+          "shortname": "COMP",
+          "value": "",
+          "cost": ""
+        }
+      },
+      "vehicle_vitals": {
+        "body": {
+          "shortname": "BODY",
+          "value": "",
+          "cost": ""
+        }
+      },
+      "base_vitals": {
+        "body": {
+          "shortname": "BODY",
+          "value": "",
+          "cost": ""
+        }
+      },
+      "hit_locations" : {
+        "humanoid": {
+          "head": {
+            "roll": [3, 4, 5],
+            "STUNx": "5",
+            "NSTUN": "2",
+            "BODYx": "2",
+            "ToHit": "-8",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "hands": {
+            "roll": [6],
+            "STUNx": "1",
+            "NSTUN": ".5",
+            "BODYx": ".5",
+            "ToHit": "-6",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "arms": {
+            "roll": [7, 8],
+            "STUNx": "2",
+            "NSTUN": ".5",
+            "BODYx": ".5",
+            "ToHit": "-5",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "shoulders": {
+            "roll": [9],
+            "STUNx": "3",
+            "NSTUN": "1",
+            "BODYx": "1",
+            "ToHit": "-5",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "chest":{
+            "roll": [10, 11],
+            "STUNx": "3",
+            "NSTUN": "1",
+            "BODYx": "1",
+            "ToHit": "-3",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "stomach": {
+            "roll": [12],
+            "STUNx": "4",
+            "NSTUN": "1.5",
+            "BODYx": "1",
+            "ToHit": "-7",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "vitals": {
+            "roll": [13],
+            "STUNx": "4",
+            "NSTUN": "1.5",
+            "BODYx": "2",
+            "ToHit": "-8",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "thighs": {
+            "roll": [14],
+            "STUNx": "2",
+            "NSTUN": "1",
+            "BODYx": "1",
+            "ToHit": "-4",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "legs": {
+            "roll": [15, 16],
+            "STUNx": "2",
+            "NSTUN": ".5",
+            "BODYx": ".5",
+            "ToHit": "-6",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          },
+          "feet": {
+            "roll": [17, 18],
+            "STUNx": "1",
+            "NSTUN": ".5",
+            "BODYx": ".5",
+            "ToHit": "-8",
+            "impaired_threshold": 0,
+            "disabled_threshold": 0,
+            "impaired": false,
+            "disabled": false,
+            "severed": false
+          }
+        }
+      },
+      "movement": {
+        "running": {
+          "shortname": "run",
+          "primary_value": "",
+          "primary_value_noncom": "",
+          "secondary_value": "",
+          "secondary_value_noncom": "",
+          "end_cost": "",
+          "cost": ""
+        },
+        "swimming": {
+          "shortname": "swim",
+          "primary_value": "",
+          "primary_value_noncom": "",
+          "secondary_value": "",
+          "secondary_value_noncom": "",
+          "end_cost": "",
+          "cost": ""
+        },
+        "leaping": {
+          "horizontal": {
+            "shortname": "h.leap",
+            "value": "",
+            "cost": ""
+          },
+          "vertical": {
+            "shortname": "v.leap",
+            "value": ""
+          }
+        }
+      },
+      "movement_others": {
+        "movement_other": {
+          "combat": {
+            "value": "",
+            "real_cost": "",
+            "active_cost": "",
+            "text": "",
+            "option": ""
+          },
+          "non-combat": {
+            "value_2x": "",
+            "value_4x": ""
+          }
+        }
+      },
+      "perks": {
+        "perk": {
+          "levels": "",
+          "name": "",
+          "display": "",
+          "alias": "",
+          "roll": "",
+          "text": "",
+          "notes": "",
+          "option": "",
+          "cost": "",
+          "sfx": "",
+          "adders": {
+            "adder_general": {
+              "levels": "",
+              "name": "",
+              "display": "",
+              "alias": "",
+              "input": "",
+              "notes": "",
+              "option": "",
+              "sfx": "",
+              "cost": ""
+            }
+          }
+        }
+      },
+      "talents": {
+        "talent": {
+          "levels": "",
+          "name": "",
+          "display": "",
+          "alias": "",
+          "roll": "",
+          "text": "",
+          "notes": "",
+          "option": "",
+          "cost": "",
+          "sfx": "",
+          "adders": {
+            "adder_general": {
+              "levels": "",
+              "name": "",
+              "display": "",
+              "alias": "",
+              "input": "",
+              "notes": "",
+              "option": "",
+              "sfx": "",
+              "cost": ""
+            }
+          }
+        }
+      },
+      "skills": {
+        "skill": {
+          "is_enhancer": "",
+          "is_everyman": "",
+          "alias": "",
+          "display": "",
+          "input": "",
+          "levels": "",
+          "name": "",
+          "roll": "",
+          "notes": "",
+          "option": "",
+          "cost": "",
+          "sfx": "",
+          "adders": {
+            "adder_general": {
+              "levels": "",
+              "name": "",
+              "display": "",
+              "alias": "",
+              "input": "",
+              "notes": "",
+              "option": "",
+              "sfx": "",
+              "cost": ""
+            }
+          }
+        }
+      },
+      "powers": {
+        "power": {
+          "is_mpp": "",
+          "is_vpp": "",
+          "levels": "",
+          "name": "",
+          "display": "",
+          "alias": "",
+          "input": "",
+          "notes": "",
+          "option": "",
+          "sfx": "",
+          "range": "",
+          "damage": "",
+          "end": "",
+          "real_cost": "",
+          "active_cost": "",
+          "adders": {
+            "adder_general": {
+              "levels": "",
+              "name": "",
+              "display": "",
+              "alias": "",
+              "input": "",
+              "notes": "",
+              "option": "",
+              "sfx": "",
+              "cost": ""
+            }
+          },
+          "modifiers": {
+            "modifier_general": {
+              "mod_value": "",
+              "levels": "",
+              "name": "",
+              "display": "",
+              "alias": "",
+              "input": "",
+              "notes": "",
+              "option": "",
+              "sfx": ""
+            }
+          }
+        }
+      },
+      "compound_powers": {
+        "compound_power": {
+          "component_power": {
+            "levels": "",
+            "name": "",
+            "display": "",
+            "alias": "",
+            "input": "",
+            "notes": "",
+            "option": "",
+            "sfx": "",
+            "range": "",
+            "damage": "",
+            "end": "",
+            "real_cost": "",
+            "active_cost": "",
+            "adders": {
+              "adder_general": {
+                "levels": "",
+                "name": "",
+                "display": "",
+                "alias": "",
+                "input": "",
+                "notes": "",
+                "option": "",
+                "sfx": "",
+                "cost": ""
+              }
+            },
+            "modifiers": {
+              "modifier_general": {
+                "mod_value": "",
+                "levels": "",
+                "name": "",
+                "display": "",
+                "alias": "",
+                "input": "",
+                "notes": "",
+                "option": "",
+                "sfx": ""
+              }
+            }
+          }
+        }
+      },
+      "equipments": {
+        "equipment": {
+          "levels": "",
+          "name": "",
+          "display": "",
+          "alias": "",
+          "input": "",
+          "notes": "",
+          "option": "",
+          "sfx": "",
+          "stats": {
+            "range": "",
+            "damage": "",
+            "weight": "",
+            "end": "",
+            "value": ""
+          },
+          "real_cost": "",
+          "active_cost": "",
+          "adders": {
+            "adder_general": {
+              "levels": "",
+              "name": "",
+              "display": "",
+              "alias": "",
+              "input": "",
+              "notes": "",
+              "option": "",
+              "sfx": "",
+              "cost": ""
+            }
+          },
+          "modifiers": {
+            "modifier_general": {
+              "mod_value": "",
+              "levels": "",
+              "name": "",
+              "display": "",
+              "input": "",
+              "alias": "",
+              "notes": "",
+              "option": "",
+              "sfx": ""
+            }
+          }
+        }
+      },
+      "compound_equipments": {
+        "compound_power": {
+          "component_power": {
+            "levels": "",
+            "name": "",
+            "display": "",
+            "alias": "",
+            "input": "",
+            "notes": "",
+            "option": "",
+            "sfx": "",
+            "range": "",
+            "damage": "",
+            "end": "",
+            "real_cost": "",
+            "active_cost": "",
+            "adders": {
+              "adder_general": {
+                "levels": "",
+                "name": "",
+                "display": "",
+                "alias": "",
+                "input": "",
+                "notes": "",
+                "option": "",
+                "sfx": "",
+                "cost": ""
+              }
+            },
+            "modifiers": {
+              "modifier_general": {
+                "mod_value": "",
+                "levels": "",
+                "name": "",
+                "display": "",
+                "alias": "",
+                "input": "",
+                "notes": "",
+                "option": "",
+                "sfx": ""
+              }
+            }
+          }
+        }
+      }
+    },
+    "equipment": {
+      "templates": ["equipments","compound_equipments"]
+    },
+    "weapon": {
+      "templates": ["equipments","compound_equipments"]
+    },
+    "vehicle": {
+      "templates": ["description","info","complications","vehicle_characteristics","vehicle_combat","vehicle_defense","defense_powers","defense_compound_powers","vehicle_vitals","hit_locations","movement","movement_others","perks","talents","skills","powers","compound_power","equipments","compound_equipments"]
+    },
+    "automaton": {
+      "templates": ["description","info","complications","characteristics","combat","defense","defense_powers","defense_compound_powers","martial_arts","vitals","hit_locations","movement","movement_others","perks","talents","skills","powers","compound_power","equipments","compound_equipments"]
+    },
+    "computer": {
+      "templates": ["description","info","complications","computer_characteristics","computer_combat","defense","defense_powers","defense_compound_powers","martial_arts","movement","movement_others","perks","talents","skills","powers","compound_power","equipments","compound_equipments"]
+    },
+    "ai_computer": {
+      "templates": ["description","info","complications","ai_characteristics","computer_combat","defense","defense_powers","defense_compound_powers","martial_arts","movement","movement_others","perks","talents","skills","powers","compound_power","equipments","compound_equipments"]
+    },
+    "base": {
+      "templates": ["base_description","info","complications","base_characteristics","base_combat","base_defense","defense_powers","defense_compound_powers","base_vitals","hit_locations","movement","movement_others","perks","talents","skills","powers","compound_power","equipments","compound_equipments"]
+    },
+    "power": {
+      "templates": ["description_short","powers","compound_powers"]
+    },
+    "spell": {
+      "templates": ["description_short","powers","compound_powers"]
+    }
+  }
+}
