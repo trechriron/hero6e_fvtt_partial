@@ -2,6 +2,6 @@
 
 /** import json files here for common data objects **/
 
-export class DataObjectsHero6e {
+export class Hero6eDataObjects {
 
 }

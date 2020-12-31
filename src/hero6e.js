@@ -1,6 +1,6 @@
 'use strict'
 
-import DataObjectsHero6e    from "./module/data/DataObjectsHero6e";
+import DataObjectsHero6e    from "./module/data/Hero6eDataObjects";
 import Hero6eEquipmentSheet from "./module/items/Hero6eEquipmentSheet.js";
 
 Hooks.once("init", () => {

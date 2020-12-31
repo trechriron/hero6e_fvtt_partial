@@ -1,15 +1,21 @@
 'use strict'
 
-export default class Hero6eEquipmentSheet extends ItemSheet {
-    get template() {
-      return `systems/hero6e/templates/items/${this.item.data.type}-sheet.html`;
+export class Hero6eEquipmentSheet extends ItemSheet {
+    /** @override */
+    static get defaultOptions() {
+        return mergeObject(super.defaultOptions, {
+            classes: [],
+            template: `systems/hero6e/templates/items/${this.item.data.type}-sheet.html`,
+            width: 600,
+            height: 600,
+            tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "description" }]
+        });
     }
+
+
 
     getData () {
        const data = super.getData();
-
-       data.hero6eData = CONFIG.hero6eData;
-
        return data;
     }
 }
