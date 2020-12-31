@@ -1,30 +1,33 @@
 {
   "name": "hero6e",
-  "title": "hero6e",
-  "description": "",
-  "version": "0.1.0",
-  "author": "",
-  "authors": [
+  "title": "HERO 6th Edition",
+  "description": "A robust implementation of the HERO 6th Edition rules.",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.7.0",
+  "compatibleCoreVersion": "0.7.9",
+  "templateVersion": 2,
+  "author": "Trentin C Bergeron | TreChriron",
+  "esmodules": [
+    "hero6e.js"
+  ],
+  "styles": [
+    "styles/hero6e.css"
+  ],
+  "packs": [
+
+  ],
+  "languages": [
     {
-      "name": "",
-      "email": "",
-      "url": ""
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
     }
   ],
-  "scripts": [],
-  "esmodules": ["hero6e.js"],
-  "styles": ["hero6e.css"],
-  "packs": [],
-  "languages": [],
-  "gridDistance": 1,
-  "gridUnits": "",
-  "minimumCoreVersion": "0.5.0",
-  "compatibleCoreVersion": "0.5.0",
+  "socket": false,
+  "initiative": "",
+  "gridDistance": 1.5,
+  "gridUnits": "m",
   "url": "",
   "manifest": "",
-  "download": "",
-  "license": "",
-  "readme": "",
-  "bugs": "",
-  "changelog": ""
+  "download": ""
 }
