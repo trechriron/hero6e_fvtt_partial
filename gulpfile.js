@@ -171,9 +171,10 @@ async function copyFiles() {
         'module',
         'packs',
         'templates',
+        `${systemName}.js`,
         'module.json',
         'system.json',
-        'template.json',
+        'template.json'
     ];
     try {
         for (const file of statics) {
@@ -193,10 +194,12 @@ async function copyDistFilesToDir(dir) {
         'lang',
         'module',
         'packs',
+        'styles',
         'templates',
+        `${systemName}.js`,
         'module.json',
         'system.json',
-        'template.json',
+        'template.json'
     ];
     try {
         for (const file of statics) {
@@ -237,15 +240,15 @@ async function clean() {
     const files = [];
 
     // If the project uses TypeScript
-    if (fs.existsSync(path.join('src', `${name}.ts`))) {
+    if (fs.existsSync(path.join('src', `${systemName}.ts`))) {
         files.push(
-            'lang',
-            'templates',
             'assets',
+            'lang',
             'module',
             'packs',
             'styles',
-            `${name}.js`,
+            'templates',
+            `${systemName}.js`,
             'module.json',
             'system.json',
             'template.json'
@@ -253,15 +256,15 @@ async function clean() {
     }
 
     // If the project uses vanilla Javascript
-    if (fs.existsSync(path.join('src', `${name}.js`))) {
+    if (fs.existsSync(path.join('src', `${systemName}.js`))) {
         files.push(
-            'lang',
-            'templates',
             'assets',
+            'lang',
             'module',
             'packs',
             'styles',
-            `${name}.js`,
+            'templates',
+            `${systemName}.js`,
             'module.json',
             'system.json',
             'template.json'
@@ -297,12 +300,10 @@ async function copyDistToDataSystems() {
     let destDir;
     try {
         if (
-            fs.existsSync(path.resolve('.', 'dist', 'module.json')) ||
             fs.existsSync(path.resolve('.', 'src', 'module.json'))
         ) {
             destDir = 'modules';
         } else if (
-            fs.existsSync(path.resolve('.', 'dist', 'system.json')) ||
             fs.existsSync(path.resolve('.', 'src', 'system.json'))
         ) {
             destDir = 'systems';
@@ -547,8 +548,10 @@ gulp.task('clean', clean);
 gulp.task('watch', buildWatch);
 gulp.task('package', packageBuild);
 gulp.task('update', updateManifest);
-gulp.task('copy', copyDistToDataSystems);
+gulp.task('copySystem', copyDistToDataSystems);
+gulp.task('copyDist', copyFiles);
 gulp.task('execGit', gulp.series(gitAdd, gitCommit, gitTag));
-gulp.task('execBuild', gulp.parallel(buildTS, buildLess, copyFiles));
-gulp.task('build', gulp.series('clean', 'execBuild'));
+gulp.task('execBuild', gulp.series(buildTS, buildLess));
+gulp.task('deploy', gulp.series('clean', 'execBuild', 'copyDist', 'copySystem'));
+gulp.task('build', gulp.series('clean', 'execBuild', 'copyDist'));
 gulp.task('publish', gulp.series('clean', 'update', 'execBuild', 'package', 'execGit'));

@@ -1,5 +1,3 @@
-'use strict'
-
 export class Hero6eActor extends Actor {
 
     /**
@@ -12,17 +10,7 @@ export class Hero6eActor extends Actor {
         const data = actorData.data;
         const flags = actorData.flags;
 
-        // Make separate methods for each Actor type (character, npc, etc.) to keep
-        // things organized.
-        if (actorData.type === 'character') this._prepareCharacterData(actorData);
+        data.dtypes = ["String", "Number", "Boolean"];
     }
 
-    /**
-     * Prepare Character type specific data
-     */
-    _prepareCharacterData(actorData) {
-        const data = actorData.data;
-
-        // Make modifications to data here. For example:
-    }
 }

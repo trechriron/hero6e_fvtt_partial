@@ -1,5 +1,3 @@
-'use strict'
-
 export class Hero6eItem extends Item {
     /**
      * Augment the basic Item data model with additional dynamic data.

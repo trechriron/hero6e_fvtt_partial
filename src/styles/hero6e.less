@@ -1,3 +1,18 @@
-@import "equipment_sheet";
-@import "character_sheet";
-@import "shared_styles";
+// Import utilities.
+@import 'utils/_typography';
+@import 'utils/_colors';
+@import 'utils/_mixins';
+@import 'utils/_variables';
+
+/* Global styles */
+@import 'global/_window';
+@import 'global/_grid';
+@import 'global/_flex';
+
+/* Styles limited to boilerplate sheets */
+.hero6e {
+  @import 'components/_forms';
+  @import 'components/_resource';
+  @import 'components/_tabs';
+  @import 'components/_items';
+}
